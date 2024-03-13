@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "nyt-franklin";
+    src: url(../Font);
+}
+
+body{
+    font-family: "nyt-franklin", helvetica ,Arial, sans-serif;
+}

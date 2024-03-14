@@ -59,7 +59,7 @@
             </div>
         </section>
         <!-- Main Header -->
-        <section class="flex flex-row w-[100%] px-[15px] pt-[8px] pb-[3px] lg:h-[58px] lg:p-0 justify-between items-baseline">
+        <section class="flex flex-row w-[100%] px-[15px] pt-[8px] pb-[3px] lg:h-[58px] lg:p-0 justify-between lg:items-baseline">
             <!-- Nav Left -->
             <div class="flex flex-col">
                 <button class="lg:hidden py-[8px] px-[9px]">
@@ -205,29 +205,93 @@
           </nav>
         </section>
     </header>
-    <main class="lg:mx-auto px-[25px] lg:max-w-[1200px] lg:px-[3%] lg:py-0">
-      <!-- Top Body -->
-      <section class="w-[100%]">
-        <div class=" flex flex-row justify-center py-[20px] border-b-[2px] border-b-black lg:border-b-0 lg:py-[16px] lg:border-t-[1px] lg:border-t-black">
-          <ul class="flex flex-row mx-[20px] items-baseline">
-            <li class="mr-[4px]">
-              <span class="text-[11px] text-[#d0021b] font-extrabold">LIVE</span>
-            </li>
-            <li class="mx-[20px]">
-              <a href="#" class="flex flex-row items-baseline w-[147px] h-18 justify-between">
-                <span class="text-[14px] font-bold">SpaceX Launch</span>
-                <span class="text-[11px] text-[#d0021b] ">1m ago</span>
-              </a>
-            </li>
-            <li>
-              <a href="#" class="flex flex-row items-baseline w-[147px] h-18 justify-between">
-                <span class="text-[14px] font-bold">Mideast Crisis</span>
-                <span class="text-[11px] text-[#d0021b] ">1m ago</span>
-              </a>
-            </li>
-          </ul>
-        </div>
+    <!-- Nav Bar -->
+    <nav class="mx-[20px] lg:mx-auto lg:max-w-[1200px] lg:px-[3%] lg:py-0">
+      <div class=" flex flex-row justify-center py-[20px]  lg:border-b-0 lg:py-[16px] lg:border-t-[1px] lg:border-t-black">
+        <ul class="flex flex-row items-baseline overflow-x-clip text-nowrap">
+          <li class="mr-[4px]">
+            <span class="text-[11px] text-[#d0021b] font-extrabold">LIVE</span>
+          </li>
+          <li class="mx-[20px]">
+            <a href="#" class="flex flex-row items-baseline justify-between">
+              <span class="text-[14px] font-bold pr-[3px]">SpaceX Launch</span>
+              <span class="text-[11px] text-[#d0021b] ">1m ago</span>
+            </a>
+          </li>
+          <li class="mr-[20px]">
+            <a href="#" class="flex flex-row items-baseline justify-between">
+              <span class="text-[14px] font-bold pr-[3px]">U.S. Presidential Race</span>
+              <span class="text-[11px] text-[#d0021b] ">1m ago</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex flex-row items-baseline justify-between">
+              <span class="text-[14px] font-bold pr-[3px]">Mideast Crisis</span>
+              <span class="text-[11px] text-[#d0021b] ">1m ago</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <main class="flex flex-col md:flex-row mx-[20px] lg:mx-auto lg:max-w-[1200px] lg:px-[3%] lg:py-0">
+      <!-- Main Body -->
+      <section class="flex flex-col md:flex-row">
+        <!-- Article -->
+        <article class="flex flex-col border-t-[2px] border-t-black md:grid md:grid-cols-[14] md:grid-rows-3 md:gap-x-[33px]">
+          <a href="#" class="md:col-span-5 md:col-start-1 md:row-span-1 md:row-start-1">
+            <div class="mt-[16px]">
+              <div class="flex flex-col">
+                <p class="text-[25px] font-serif font-[550] md:text-[19px] md:leading-[22px]">
+                  Schumer Urges New Leadership in Israel, Calling Netanyahu an Obstacle to Peace
+                </p>
+                <p class="font-serif text-[#5a5a5a] mt-[8px] md:text-[14px] md:leading-[19px]">
+                  Senator Chuck Schumer spoke from the Senate floor to condemn Prime Minister Benjamin Netanyahu and call for elections to replace him.
+                </p>
+                <p class="text-[11px] text-[#727272] mt-[8px]">4 MIN READ</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="md:col-span-9 md:col-start-6 md:row-span-2 md:row-start-1">
+            <figure class="mt-[12px]">
+              <img src="../Pictures/SchumerUrges.webp" alt="" class="w-[100%]">
+              <figcaption class="mt-[4px] text-right">
+                <span class="text-[10px] text-[#727272] ">Kenny Holston/The New York Times</span>
+              </figcaption>
+            </figure>
+          </a>
+          <a href="#" class="md:col-span-5 md:col-start-1 md:row-span-1 md:row-start-2">
+            <hr class="my-[16px]">
+            <div>
+              <p class="text-[20px] font-serif font-[520] mb-[8px] md:text-[18px] md:leading-[22px]">
+                ‘Everything Is Difficult’: The Struggle for Life’s Basics in Rafah
+              </p>
+              <p class="font-serif text-[#5a5a5a] md:text-[14px] md:leading-[19px]">
+                Most of Gaza’s population fled to the southern territory of Rafah. As they hunt for food and shelter, a potential Israeli invasion is adding to their fears.
+              </p>
+              <p class="text-[11px] text-[#727272] mt-[8px]">4 MIN READ</p>
+            </div>
+            <hr class="my-[16px]">
+          </a>
+          <a href="#" class="md:col-span-5 md:col-start-1 md:row-span-1 md:row-start-3">
+            <div>
+              <span class="text-[11px] text-[#d0021b] font-extrabold mb-[4px]">LIVE</span>
+              <span class="text-[11px] text-[#d0021b] mb-[4px]">1m ago</span>
+              <p class="text-[20px] font-serif font-[520] mb-[8px] md:text-[16px] md:leading-[22px]">
+                Israel sought to highlight new efforts to bring aid into Gaza by land, sea and air. Aid groups said they were insufficient.
+              </p>
+              <span class="text-[15px] mt-[6px]">See more updates</span>
+              <span class="text-[10px] bg-black text-white rounded-3xl pt-[2.4px] pr-[3.2px] pb-[1.6px] pl-[4px] ml-[3.2px]">8+</span>
+            </div>
+          </a>
+        </article>
+        <article class="border-t-[2px] border-t-black">
+
+        </article>
       </section>
+      <!-- Aside -->
+      <aside class="hidden lg:block">
+
+      </aside>
     </main>
 </body> 
 </html>

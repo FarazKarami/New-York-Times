@@ -7,9 +7,10 @@
     <title>New York Times International</title>
 </head>
 <body>
+  <!-- Header -->
     <header class="lg:mx-auto lg:max-w-[1200px] lg:px-[3%] lg:py-0">
         <!-- Top Header -->
-        <section class="hidden lg:block lg:flex flex-row w-[100%] justify-between items-baseline px-[15px] pt-[4px] pb-[8px]">
+        <section class="hidden lg:flex flex-row w-[100%] justify-between items-baseline px-[15px] pt-[4px] pb-[8px]">
             <!-- Div left -->
             <div>
                 <button class="px-[9px] pt-[8px] pb-[9px] hover:bg-[#eee] transition duration-700">
@@ -235,9 +236,9 @@
     </nav>
     <main class="flex flex-col md:flex-row mx-[20px] lg:mx-auto lg:max-w-[1200px] lg:px-[3%] lg:py-0">
       <!-- Main Body -->
-      <section class="flex flex-col md:flex-row">
-        <!-- Article -->
-        <article class="flex flex-col border-t-[2px] border-t-black md:grid md:grid-cols-[14] md:grid-rows-3 md:gap-x-[33px]">
+      <section class="flex flex-col">
+        <!-- Article 1-->
+        <article class="flex flex-col border-t-[2px] border-t-black pb-[40px] md:grid md:grid-cols-[14] md:grid-rows-3 md:gap-x-[33px] md:pb-0">
           <a href="#" class="md:col-span-5 md:col-start-1 md:row-span-1 md:row-start-1">
             <div class="mt-[16px]">
               <div class="flex flex-col">
@@ -247,12 +248,14 @@
                 <p class="font-serif text-[#5a5a5a] mt-[8px] md:text-[14px] md:leading-[19px]">
                   Senator Chuck Schumer spoke from the Senate floor to condemn Prime Minister Benjamin Netanyahu and call for elections to replace him.
                 </p>
-                <p class="text-[11px] text-[#727272] mt-[8px]">4 MIN READ</p>
+                <p class="text-[11px] text-[#727272] mt-[8px]">
+                  4 MIN READ
+                </p>
               </div>
             </div>
           </a>
           <a href="#" class="md:col-span-9 md:col-start-6 md:row-span-2 md:row-start-1">
-            <figure class="mt-[12px]">
+            <figure class="mt-[12px] md:mt-[16px]">
               <img src="../Pictures/SchumerUrges.webp" alt="" class="w-[100%]">
               <figcaption class="mt-[4px] text-right">
                 <span class="text-[10px] text-[#727272] ">Kenny Holston/The New York Times</span>
@@ -284,8 +287,29 @@
             </div>
           </a>
         </article>
-        <article class="border-t-[2px] border-t-black">
-
+        <!-- Article 2 -->
+        <article class=" border-t-[2px] border-t-black pb-[40px]">
+          <a href="#" class="flex flex-col md:flex-row">
+            <div class="mt-[16px]">
+              <div class="flex flex-col">
+                <p class="text-[25px] font-serif font-extralight mb-[8px]">
+                  Cities Face Cutbacks as Commercial Real Estate Prices Tumble
+                </p>
+                <p class="font-serif text-[#5a5a5a]">
+                  Lost tax revenue is fueling concerns over an urban “doom loop” in the United States.
+                </p>
+                <p class="text-[11px] text-[#727272] mt-[8px]">
+                  5 MIN READ
+                </p>
+              </div>
+            </div>
+            <figure class="mt-[12px] md:mt-[16px]">
+              <img src="../Pictures/CitiesCutbacks.webp" alt="" class="w-[100%]">
+              <figcaption class="mt-[4px] text-right">
+                <span class="text-[10px] text-[#727272] ">Erin Schaff/The New York Times</span>
+              </figcaption>
+            </figure>
+          </a>
         </article>
       </section>
       <!-- Aside -->

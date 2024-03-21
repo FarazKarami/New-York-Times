@@ -95,7 +95,7 @@
                         </svg>
                     </button>
                 </div>
-                <div class="hidden lg:block lg:w-[105px] lg:h-[12px] lg:flex flex-row  justify-between items-baseline">
+                <div class="hidden lg:w-[105px] lg:h-[12px] lg:flex flex-row  justify-between items-baseline">
                     <div>
                         <span class="text-[12px] font-normal">Dow</span>
                     </div>
@@ -107,9 +107,9 @@
             </div>
         </section>     
         <!-- Bottom Header -->
-        <section class="w-[100%] border-y-[1px] border-[#e2e2e2] border-solid px-[20px] pt-[13px] pb-[12px] mb-[1px] bg-[#f7f7f7] lg:bg-[#fff] lg:py-[2px] lg:border-b-[#000]">
+        <section class="w-[100%] border-y-[1px] border-[#e2e2e2] border-solid px-[20px] pt-[13px] pb-[12px] mb-[1px] bg-[#f7f7f7] md:bg-[#fff] md:text-center lg:py-[2px] lg:border-b-[#000]">
           <div>
-            <span class="lg:hidden text-[10px] font-bold text-[#121212]">Tuesday, March 12, 2024</span>
+            <span class="text-[10px] font-bold text-[#121212] lg:hidden">Tuesday, March 12, 2024</span>
           </div>
           <nav class="hidden lg:block pt-[2px]">
             <ul class="flex flex-row justify-center items-center text-[11px] font-medium flex-nowrap">
@@ -209,17 +209,17 @@
     <!-- Nav Bar -->
     <nav class="mx-[20px] lg:mx-auto lg:max-w-[1200px] lg:px-[3%] lg:py-0">
       <div class=" flex flex-row justify-center py-[20px]  lg:border-b-0 lg:py-[16px] lg:border-t-[1px] lg:border-t-black">
-        <ul class="flex flex-row items-baseline overflow-x-clip text-nowrap">
-          <li class="mr-[4px]">
+        <ul class="flex flex-row items-baseline overflow-x-scroll text-nowrap">
+          <li class="mr-[4px] flex-shrink-0">
             <span class="text-[11px] text-[#d0021b] font-extrabold">LIVE</span>
           </li>
-          <li class="mx-[20px]">
+          <li class="mx-[20px] flex-shrink-0">
             <a href="#" class="flex flex-row items-baseline justify-between">
               <span class="text-[14px] font-bold pr-[3px]">SpaceX Launch</span>
               <span class="text-[11px] text-[#d0021b] ">1m ago</span>
             </a>
           </li>
-          <li class="mr-[20px]">
+          <li class="mr-[20px] flex-shrink-0">
             <a href="#" class="flex flex-row items-baseline justify-between">
               <span class="text-[14px] font-bold pr-[3px]">U.S. Presidential Race</span>
               <span class="text-[11px] text-[#d0021b] ">1m ago</span>
@@ -234,451 +234,1077 @@
         </ul>
       </div>
     </nav>
-    <main class="flex flex-col md:flex-row mx-[20px] lg:mx-auto lg:max-w-[1200px] lg:px-[3%] lg:py-0">
+     <!-- Main -->
+    <main class="mx-[20px] lg:mx-auto lg:max-w-[1200px] lg:px-[3%] lg:py-0 border-b-[2px] border-b-[#dfdfdf]">
       <!-- Main Body -->
-      <section class="flex flex-col lg:w-[70%] lg:pr-[16px] lg:border-r-[1px] lg:border-r-[#c7c7c7]">
-        <!-- Article 1-->
-        <article class="flex flex-col border-t-[2px] border-t-black pb-[40px] md:grid md:grid-cols-[14] md:grid-rows-3 md:gap-x-[33px] md:pb-0 lg:border-t-[1px]">
-          <a href="#" class="md:col-span-5 md:col-start-1 md:row-span-1 md:row-start-1">
-            <div class="mt-[16px] lg:mt-0 lg:pt-[20px]">
-              <div class="flex flex-col">
-                <p class="text-[25px] font-serif font-[550] md:text-[19px] md:leading-[22px]">
-                  Schumer Urges New Leadership in Israel, Calling Netanyahu an Obstacle to Peace
-                </p>
-                <p class="font-serif text-[#5a5a5a] mt-[8px] md:text-[14px] md:leading-[19px]">
-                  Senator Chuck Schumer spoke from the Senate floor to condemn Prime Minister Benjamin Netanyahu and call for elections to replace him.
-                </p>
-                <p class="text-[11px] text-[#727272] mt-[8px]">
-                  4 MIN READ
-                </p>
-              </div>
-            </div>
-          </a>
-          <a href="#" class="md:col-span-9 md:col-start-6 md:row-span-2 md:row-start-1">
-            <figure class="mt-[12px] md:mt-[16px] lg:mt-0 lg:pt-[20px]">
-              <img src="../Pictures/SchumerUrges.webp" alt="" class="w-[100%]">
-              <figcaption class="mt-[4px] text-right">
-                <span class="text-[10px] text-[#727272] ">Kenny Holston/The New York Times</span>
-              </figcaption>
-            </figure>
-          </a>
-          <a href="#" class="md:col-span-5 md:col-start-1 md:row-span-1 md:row-start-2">
-            <hr class="my-[16px]">
-            <div>
-              <p class="text-[20px] font-serif font-[520] mb-[8px] md:text-[18px] md:leading-[22px]">
-                ‘Everything Is Difficult’: The Struggle for Life’s Basics in Rafah
-              </p>
-              <p class="font-serif text-[#5a5a5a] md:text-[14px] md:leading-[19px]">
-                Most of Gaza’s population fled to the southern territory of Rafah. As they hunt for food and shelter, a potential Israeli invasion is adding to their fears.
-              </p>
-              <p class="text-[11px] text-[#727272] mt-[8px]">4 MIN READ</p>
-            </div>
-            <hr class="my-[16px]">
-          </a>
-          <a href="#" class="md:col-span-5 md:col-start-1 md:row-span-1 md:row-start-3">
-            <div>
-              <span class="text-[11px] text-[#d0021b] font-extrabold mb-[4px]">LIVE</span>
-              <span class="text-[11px] text-[#d0021b] mb-[4px]">1m ago</span>
-              <p class="text-[20px] font-serif font-[520] mb-[8px] md:text-[16px] md:leading-[22px]">
-                Israel sought to highlight new efforts to bring aid into Gaza by land, sea and air. Aid groups said they were insufficient.
-              </p>
-              <span class="text-[15px] mt-[6px]">See more updates</span>
-              <span class="text-[10px] bg-black text-white rounded-3xl pt-[2.4px] pr-[3.2px] pb-[1.6px] pl-[4px] ml-[3.2px]">8+</span>
-            </div>
-          </a>
-        </article>
-        <!-- Article 2 -->
-        <article class="border-t-[2px] border-t-black pb-[40px] lg:border-t-[1px]">
-          <a href="#" class="flex flex-col md:flex-row">
-            <div class="flex flex-col mt-[16px] md:pr-[33px]">
-                <p class="text-[25px] font-serif font-extralight mb-[8px]">
-                  Cities Face Cutbacks as Commercial Real Estate Prices Tumble
-                </p>
-                <p class="font-serif text-[#5a5a5a]">
-                  Lost tax revenue is fueling concerns over an urban “doom loop” in the United States.
-                </p>
-                <p class="text-[11px] text-[#727272] mt-[8px]">
-                  5 MIN READ
-                </p>
-            </div>
-            <figure class="mt-[12px] md:mt-[16px]">
-              <img src="../Pictures/CitiesCutbacks.webp" alt="" class="w-[100%]">
-              <figcaption class="mt-[4px] text-right">
-                <span class="text-[10px] text-[#727272] ">Erin Schaff/The New York Times</span>
-              </figcaption>
-            </figure>
-          </a>
-        </article>
-        <!-- Article 3 -->
-        <article>
-
-        </article>
-      </section>
-      <!-- Aside -->
-      <aside class="hidden lg:block lg:w-[30%] lg:pl-[16px] h-[4500px]">
-          <div class="border-t-[1px] border-t-black pt-[20px]">
-            <div class="pb-[16px]">
-              <a href="#">
-                <figure>
-                  <img src="../Pictures/14HuntPhiladelphia.webp" alt="" class="w-[100%]">
-                  <figcaption class="mt-[4px] mb-[8px] text-right leading-[11px]">
-                    <span class="text-[9px] text-[#727272] ">Michael Persico for New York Times</span>
-                  </figcaption>
-                </figure>
+      <div class="flex flex-col lg:flex-row ">
+        <section class="flex flex-col lg:w-[70%] lg:pr-[16px] lg:border-r-[1px] lg:border-r-[#c7c7c7] mb-[24px]">
+          <!-- Article 1-->
+          <article class="flex flex-col border-t-[2px] border-t-black pb-[40px] md:grid md:grid-cols-[14] md:grid-rows-3 md:gap-x-[33px] md:pb-0 lg:border-t-[1px]">
+            <a href="#" class="md:col-span-5 md:col-start-1 md:row-span-1 md:row-start-1">
+              <div class="mt-[16px] lg:mt-0 lg:pt-[20px]">
                 <div class="flex flex-col">
-                  <p class="text-[24px] font-serif font-light leading-[28px]">
-                    A New Yorker Decamped to the Philadelphia Area. What Would $500,000 Buy?
+                  <p class="text-[25px] font-serif font-[550] md:text-[19px] md:leading-[22px]">
+                    Schumer Urges New Leadership in Israel, Calling Netanyahu an Obstacle to Peace
                   </p>
-                  <p class="text-[14px] font-serif leading-[19px] mt-[8px] text-[#5a5a5a]">
-                    With a new job at Bryn Mawr and a grandchild on the way, an academic looked for what she couldn’t afford in Manhattan: more space, more green, more parking.
+                  <p class="font-serif text-[#5a5a5a] mt-[8px] md:text-[14px] md:leading-[19px]">
+                    Senator Chuck Schumer spoke from the Senate floor to condemn Prime Minister Benjamin Netanyahu and call for elections to replace him.
                   </p>
-                  <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                  <p class="text-[11px] text-[#727272] mt-[8px]">
+                    4 MIN READ
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="#" class="md:col-span-9 md:col-start-6 md:row-span-2 md:row-start-1">
+              <figure class="mt-[12px] md:mt-[16px] lg:mt-0 lg:pt-[20px]">
+                <img src="../Pictures/SchumerUrges.webp" alt="" class="w-[100%]">
+                <figcaption class="mt-[4px] text-right">
+                  <span class="text-[10px] text-[#727272] ">Kenny Holston/The New York Times</span>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#" class="md:col-span-5 md:col-start-1 md:row-span-1 md:row-start-2">
+              <hr class="my-[16px]">
+              <div>
+                <p class="text-[20px] font-serif font-[520] mb-[8px] md:text-[18px] md:leading-[22px]">
+                  ‘Everything Is Difficult’: The Struggle for Life’s Basics in Rafah
+                </p>
+                <p class="font-serif text-[#5a5a5a] md:text-[14px] md:leading-[19px]">
+                  Most of Gaza’s population fled to the southern territory of Rafah. As they hunt for food and shelter, a potential Israeli invasion is adding to their fears.
+                </p>
+                <p class="text-[11px] text-[#727272] mt-[8px]">4 MIN READ</p>
+              </div>
+              <hr class="my-[16px]">
+            </a>
+            <a href="#" class="md:col-span-5 md:col-start-1 md:row-span-1 md:row-start-3">
+              <div>
+                <span class="text-[11px] text-[#d0021b] font-extrabold mb-[4px]">LIVE</span>
+                <span class="text-[11px] text-[#d0021b] mb-[4px]">1m ago</span>
+                <p class="text-[20px] font-serif font-[520] mb-[8px] md:text-[16px] md:leading-[22px]">
+                  Israel sought to highlight new efforts to bring aid into Gaza by land, sea and air. Aid groups said they were insufficient.
+                </p>
+                <span class="text-[15px] mt-[6px]">See more updates</span>
+                <span class="text-[10px] bg-black text-white rounded-3xl pt-[2.4px] pr-[3.2px] pb-[1.6px] pl-[4px] ml-[3.2px]">8+</span>
+              </div>
+            </a>
+          </article>
+          <!-- Article 2 -->
+          <article class="border-t-[2px] border-t-black pb-[40px] lg:border-t-[1px]">
+            <a href="#" class="flex flex-col md:flex-row">
+              <div class="flex flex-col mt-[16px] md:pr-[33px]">
+                  <p class="text-[25px] font-serif font-extralight mb-[8px]">
+                    Cities Face Cutbacks as Commercial Real Estate Prices Tumble
+                  </p>
+                  <p class="font-serif text-[#5a5a5a]">
+                    Lost tax revenue is fueling concerns over an urban “doom loop” in the United States.
+                  </p>
+                  <p class="text-[11px] text-[#727272] mt-[8px]">
+                    5 MIN READ
+                  </p>
+              </div>
+              <figure class="mt-[12px] md:mt-[16px]">
+                <img src="../Pictures/CitiesCutbacks.webp" alt="" class="w-[100%]">
+                <figcaption class="mt-[4px] text-right">
+                  <span class="text-[10px] text-[#727272] ">Erin Schaff/The New York Times</span>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+          <!-- Article 3 -->
+          <article class="flex flex-col border-t-[2px] border-t-black pb-[40px] md:grid md:grid-cols-[14] md:grid-rows-2 md:gap-x-[33px] md:pb-0 lg:border-t-[1px]">
+            <a href="#" class="md:col-span-5 md:col-start-1 md:row-span-1 md:row-start-1">
+              <div class="mt-[16px] lg:mt-0 lg:pt-[20px]">
+                <div class="flex flex-col">
+                  <p class="text-[20px] font-serif font-[520] mb-[8px] md:text-[18px] md:leading-[22px]">
+                    In Latest A.I. War Escalation, Elon Musk Releases Chatbot Code
+                  </p>
+                  <p class="font-serif text-[#5a5a5a] mt-[8px] md:text-[14px] md:leading-[19px]">
+                    Mr. Musk’s move to open up the code behind Grok is the latest volley in a war to win the A.I. battle, after a suit against OpenAI on the same topic.
+                  </p>
+                  <p class="text-[11px] text-[#727272] mt-[8px]">
                     3 MIN READ
                   </p>
                 </div>
-                <hr class="my-[16px] border-y-[#dfdfdf]">
+              </div>
+            </a>
+            <a href="#" class="md:col-span-9 md:col-start-6 md:row-span-2 md:row-start-1">
+              <figure class="mt-[12px] md:mt-[16px] lg:mt-0 lg:pt-[20px]">
+                <img src="../Pictures/ElonMuskMain.webp" alt="" class="w-[100%]">
+                <figcaption class="mt-[4px] text-right">
+                  <span class="text-[10px] text-[#727272] ">Haiyun Jiang for The New York Times</span>
+                </figcaption>
+              </figure>
+            </a>
+            <a href="#" class="md:col-span-5 md:col-start-1 md:row-span-1 md:row-start-2">
+              <hr class="my-[16px]">
+              <div>
+                <p class="text-[20px] font-serif font-[520] mb-[8px] md:text-[18px] md:leading-[22px]">
+                  The Department of Homeland Security will be the first federal agency to roll out a comprehensive A.I. plan.
+                </p>
+                <p class="text-[11px] text-[#727272] mt-[8px]">3 MIN READ</p>
+              </div>
+            </a>
+          </article>
+          <!-- Article 4 -->
+          <article class="border-t-[2px] border-t-black pb-[40px] lg:border-t-[1px]">
+            <a href="#" class="flex flex-col md:flex-row">
+              <div class="flex flex-col mt-[16px] md:pr-[33px]">
+                  <p class="text-[20px] font-serif font-extralight mb-[8px] md:text-[20px] md:leading-[23px]">
+                    A Bronx Teacher Asked. Tommy Orange Answered.
+                  </p>
+                  <p class="font-serif text-[#5a5a5a]">
+                    When the author received an impassioned email, he dropped everything to visit the students who inspired it.
+                  </p>
+                  <p class="text-[11px] text-[#727272] mt-[8px]">
+                    6 MIN READ
+                  </p>
+              </div>
+              <figure class="mt-[12px] md:mt-[16px]">
+                <img src="../Pictures/BronxTeacher.webp" alt="" class="w-[100%]">
+                <figcaption class="mt-[4px] text-right">
+                  <span class="text-[10px] text-[#727272] ">Erin Schaff/The New York Times</span>
+                </figcaption>
+              </figure>
+            </a>
+          </article>
+          <!-- Article 5 -->
+          <article class="border-t-[2px] border-t-black pb-[40px] lg:border-t-[1px]">
+            <div class="pt-[16px]">
+              <h2 class="mt-[-4px] mb-[12px] text-[16px] font-bold leading-[21px] md:mt-[-11px]">Well</h2>
+            </div>
+            <div class="flex flex-row overflow-x-scroll flex-nowrap">
+              <a href="#" class="flex-shrink-0 w-[80%] pr-[20px] lg:w-[30%]">
+                <div class="flex flex-col">
+                  <figure class="mb-[8px] w-[100%]">
+                    <img src="../Pictures/Needs.webp" alt="" class="w-[100%]">
+                    <figcaption class="mt-[4px] text-right">
+                      <span class="text-[10px] text-[#727272] ">Sophia Pappas</span>
+                    </figcaption>
+                  </figure>
+                  <p class="text-[18px] font-serif font-medium leading-[23px] mb-[8px]">
+                    How Your Protein Needs Change as You Age
+                  </p>
+                  <p class="text-[11px] text-[#727272] mt-[8px]">
+                    4 MIN READ
+                  </p>
+                </div>
               </a>
+              <a href="#" class="flex-shrink-0 w-[80%] pr-[20px] lg:w-[30%]">
+                <div class="flex flex-col">
+                  <figure class="mb-[8px] w-[100%]">
+                    <img src="../Pictures/Yogurt.webp" alt="" class="w-[100%]">
+                    <figcaption class="mt-[4px] text-right">
+                      <span class="text-[10px] text-[#727272] ">Bobbi Lin for The New York Times</span>
+                    </figcaption>
+                  </figure>
+                  <p class="text-[18px] font-serif font-medium leading-[23px] mb-[8px]">
+                    Does Eating Yogurt Reduce Your Diabetes Risk?
+                  </p>
+                  <p class="text-[11px] text-[#727272] mt-[8px]">
+                    3 MIN READ
+                  </p>
+                </div>
+              </a>
+              <a href="#" class="flex-shrink-0 w-[80%] pr-[20px] lg:w-[30%]">
+                <div class="flex flex-col">
+                  <figure class="mb-[8px] w-[100%]">
+                    <img src="../Pictures/StayInBed.webp" alt="" class="w-[100%]">
+                    <figcaption class="mt-[4px] text-right">
+                      <span class="text-[10px] text-[#727272] ">Tonje Thilesen for The New York Times</span>
+                    </figcaption>
+                  </figure>
+                  <p class="text-[18px] font-serif font-medium leading-[23px] mb-[8px]">
+                    How Long Is Too Long to Stay in Bed?
+                  </p>
+                  <p class="text-[11px] text-[#727272] mt-[8px]">
+                    3 MIN READ
+                  </p>
+                </div>
+              </a>
+              <a href="#" class="flex-shrink-0 w-[80%] pr-[20px] lg:w-[30%]">
+                <div class="flex flex-col">
+                  <figure class="mb-[8px] w-[100%]">
+                    <img src="../Pictures/Steps.webp" alt="" class="w-[100%]">
+                    <figcaption class="mt-[4px] text-right">
+                      <span class="text-[10px] text-[#727272] ">Nicholas Sansone for The New York Times</span>
+                    </figcaption>
+                  </figure>
+                  <p class="text-[18px] font-serif font-medium leading-[23px] mb-[8px]">
+                    How Many Steps Do You Really Need? That’s the Wrong Question.
+                  </p>
+                  <p class="text-[11px] text-[#727272] mt-[8px]">
+                    4 MIN READ
+                  </p>
+                </div>
+              </a>
+              <a href="#" class="flex-shrink-0 w-[80%] lg:w-[30%]">
+                <div class="flex flex-col">
+                  <figure class="mb-[8px] w-[100%]">
+                    <img src="../Pictures/Neck.webp" alt="" class="w-[100%]">
+                    <figcaption class="mt-[4px] text-right">
+                      <span class="text-[10px] text-[#727272] ">Getty Images</span>
+                    </figcaption>
+                  </figure>
+                  <p class="text-[18px] font-serif font-medium leading-[23px] mb-[8px]">
+                    Why Does My Neck Look So Much Older Than My Face?
+                  </p>
+                  <p class="text-[11px] text-[#727272] mt-[8px]">
+                    4 MIN READ
+                  </p>
+                </div>
+              </a>
+            </div>
+          </article>
+          <!-- Article 6 -->
+          <article class="border-t-[2px] border-t-black pb-[40px] lg:border-t-[1px]">
+            <div class="pt-[16px]">
+              <h2 class="mt-[-4px] mb-[12px] text-[16px] font-bold leading-[21px] md:mt-[-11px]">Culture and Lifestyle</h2>
             </div>
             <div>
-              <div class="flex flex-row">
-                <div class="pr-[16px] border-r-[#dfdfdf] border-r-[1px] w-[50%]">
-                  <a href="#">
-                    <figure class="mb-[8px]">
-                      <img src="../Pictures/Travel.webp" alt="" class="w-[100%]">
-                    </figure>
-                    <div>
-                      <p class="text-[16px] font-serif font-bold leading-[19px]">
-                        Our travel columnist offers advice to a couple whose Ireland trip fell apart after a string of airline snafus.
-                      </p>
-                      <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                        6 MIN READ
-                      </p>
-                    </div>
-                  </a>
-                </div>
-                <div class="pl-[16px] w-[50%]">
-                  <a href="#">
-                    <figure class="mb-[8px]">
-                      <img src="../Pictures/Writer.webp" alt="" class="w-[100%]">
-                    </figure>
-                    <div>
-                      <p class="text-[10px] font-semibold leading-[13px] text-[#121212] mb-[4px]">
-                        BOOK REVIEW
-                      </p>
-                      <p class="text-[16px] font-serif font-bold leading-[19px]">
-                        One of his books became an Oscar-winning movie. Now, he’s back with a “masterpiece.”                    </p>
-                      <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                        6 MIN READ
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="flex flex-row justify-end mt-[12px] p-[1px] pb-[20px]">
-                <button class="w-[26px] h-[26px] border-[#dfdfdf] border-[1px] rounded-[50%] text-center text-[#dfdfdf] mr-[5px] hover:bg-[#dfdfdf]">
-                  <
-                </button>
-                <button class="w-[26px] h-[26px] border-[#dfdfdf] border-[1px] rounded-[50%] text-center text-black ml-[5px] hover:bg-[#dfdfdf]">
-                  >
-                </button>
-              </div>
-            </div>
-          </div>
-          <div class="border-t-[1px] border-t-black pt-[20px]">
-            <div class="mt-[-11px] mb-[12px]">
-              <h2 class="text-[14px] font-bold leading-[18px]">Opinion</h2>
-            </div>
-            <div class="pb-[16px]">
               <a href="#">
-                <div>
-                  <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
-                    J. LESTER FEDER
-                  </p>
-                  <p class="text-[17px] font-serif font-normal leading-[23px]">
-                    ‘Wear It or We Will Beat You to Death’
-                  </p>
-                  <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                    5 MIN READ
-                  </p>
-                </div>
-                <figure class="mt-[8px]">
-                  <img src="../Pictures/LesterFeder.webp" alt="">
-                  <figcaption class="mt-[4px] mb-[8px] text-right leading-[11px]">
-                    <span class="text-[9px] text-[#727272] ">Illustration by Anton Shebetko; photograph by Anadolu/Getty Images</span>
+                <figure class="w-[100%]">
+                  <img src="../Pictures/FrenchCastle.jpeg" alt="" class="w-[100%]">
+                  <figcaption class="mt-[4px] text-right">
+                    <span class="text-[10px] text-[#727272] ">Adrien Dirand</span>
                   </figcaption>
                 </figure>
-              </a>
-            </div>
-            <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
-              <a href="#">
-                <div class="flex flex-row items-center">
-                  <div class="w-[80%]">
-                    <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
-                      DAVID FRENCH
-                    </p>
-                    <p class="text-[17px] font-serif font-normal leading-[23px]">
-                      A Damaged Fani Willis Picks Up the Pieces of Her Case Against Trump
-                    </p>
-                    <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                      2 MIN READ
-                    </p>
-                  </div>
-                  <figure class="pl-[5px] w-[40px]">
-                    <img src="../Pictures/davidfrench.webp" alt="" class="w-[100%]">
-                  </figure>
-                </div>
-              </a>
-            </div>
-            <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
-              <a href="#">
-                <div class="flex flex-row items-center">
-                  <div class="w-[80%]">
-                    <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
-                      JAMELLE BOUIE
-                    </p>
-                    <p class="text-[17px] font-serif font-normal leading-[23px]">
-                      Don’t Think of It as a Contest Between Biden and Trump
-                    </p>
-                    <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                      5 MIN READ
-                    </p>
-                  </div>
-                  <figure class="pl-[5px] w-[40px]">
-                    <img src="../Pictures/jamellebouie.webp" alt="" class="w-[100%]">
-                  </figure>
-                </div>
-              </a>
-            </div>
-            <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
-              <a href="#">
-                <div class="flex flex-row items-center">
-                  <div class="w-[80%]">
-                    <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
-                      MICHELLE GOLDBERG
-                    </p>
-                    <p class="text-[17px] font-serif font-normal leading-[23px]">
-                      Why Is Congress Investigating a Union for Being Anti-Israel?
-                    </p>
-                    <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                      4 MIN READ
-                    </p>
-                  </div>
-                  <figure class="pl-[5px] w-[40px]">
-                    <img src="../Pictures/michellegoldberg.webp" alt="" class="w-[100%]">
-                  </figure>
-                </div>
-              </a>
-            </div>
-            <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
-              <a href="#">
-                <div class="flex flex-row items-center ">
-                  <div class="w-[80%]">
-                    <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
-                      PAUL KRUGMAN
-                    </p>
-                    <p class="text-[17px] font-serif font-normal leading-[23px]">
-                      Social Security and Medicare Are on the Ballot
-                    </p>
-                    <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                      4 MIN READ
-                    </p>
-                  </div>
-                  <figure class="pl-[5px] w-[40px]">
-                    <img src="../Pictures/paulkrugman.webp" alt="" class="w-[40px]">
-                  </figure>
-                </div>
-              </a>
-            </div>
-            <div class="flex flex-row pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
-              <div class="w-[50%]">
-                <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
-                  AARON KLEIN
+                <p class="text-[28px] font-serif font-[200] leading-[32px] text-left lg:text-center">
+                  A French Castle Filled With a Collector's Treasure
                 </p>
-                <p class="text-[17px] font-serif font-normal leading-[23px]">
-                  What the Fight Over the Capital One-Discover Merger Misses About Our Terrible Credit Card System
+                <p class="text-[14px] font-serif font-[400] leading-[19px] text-left lg:text-center text-[#5a5a5a]">
+                  The art and antiques dealer Yves Gastou was passionate about objects and their stories. His home in Biarritz overflowed with both.
                 </p>
-                <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                  5 MIN READ
-                </p>
-              </div>
-              <figure class="w-[152px] h-[152px]">
-                <img src="../Pictures/aaronklein.webp" alt="" class="w-[100%]">
-              </figure>
-            </div>
-            <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
-              <a href="#">
-                <div>
-                    <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
-                      AARON KLEIN
-                    </p>
-                    <p class="text-[17px] font-serif font-normal leading-[23px]">
-                      New York Is Wilder Than You Think
-                    </p>
-                    <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                      5 MIN READ
-                    </p>
-                </div>
               </a>
             </div>
-            <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
-              <a href="#">
-                <div class="flex flex-row">
-                  <div class="w-[70%]">
-                    <div>
-                      <span class="text-[10px] font-semibold leading-[13px] mr-[8px]">MATTER OF OPINION</span>
-                      <span class="text-[10px] font-semibold leading-[13px] text-[#727272]">AUDIO</span>
-                    </div>
-                      <p class="text-[17px] font-serif font-normal leading-[23px]">
-                        The Election of Our Discontent
-                      </p>
-                      <div class="flex items-center">
-                        <div class="mt-[8px] mr-[8px]">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 28 28" fill="none">
-                            <circle cx="14" cy="14" r="13.5" stroke="var(--color-stroke-quaternary,#DFDFDF)"></circle>
-                            <path d="M20.125 14L10.9375 19.3044L10.9375 8.69559L20.125 14Z" fill="var(--color-stroke-primary,#121212)"></path>
-                          </svg>
-                        </div>
-                        <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                          36 MIN LISTEN
-                        </p>
-                      </div>
-                  </div>
-                  <figure class="w-[91px] h-[91px]">
-                    <img src="../Pictures/vote.webp" alt="" class="w-[100%]">
-                  </figure>
-                </div>
-              </a>
-            </div>
-            <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
-              <div class="flex flex-row">
-                <div class="pr-[16px] border-r-[#dfdfdf] border-r-[1px] w-[50%]">
-                  <a href="#">
-                    <div>
-                      <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
-                        LETTERS FROM OUR READERS
-                      </p>
-                      <p class="text-[17px] font-serif font-normal leading-[23px]">
-                        Schumer's Strong Condemnation of Netanyahu
-                      </p>
-                    </div>
-                  </a>
-                </div>
-                <div class="pl-[16px] w-[50%]">
-                  <a href="#">
-                    <div>
-                      <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px] text-nowrap">
-                        ALEXANDER STOCKTON
-                      </p>
-                      <p class="text-[17px] font-serif font-normal leading-[23px]">
-                        This Is Medical Injustice, Disguised as PAPERWORK
-                      </p>
-                      <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                        2 MIN READ
-                      </p>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="flex flex-row justify-end mt-[12px] p-[1px] pb-[20px]">
-                <button class="w-[26px] h-[26px] border-[#dfdfdf] border-[1px] rounded-[50%] text-center text-[#dfdfdf] mr-[5px] hover:bg-[#dfdfdf]">
-                  <
-                </button>
-                <button class="w-[26px] h-[26px] border-[#dfdfdf] border-[1px] rounded-[50%] text-center text-black ml-[5px] hover:bg-[#dfdfdf]">
-                  >
-                </button>
-              </div>
-            </div>
+          </article>
+        </section>
+        <!-- Aside -->
+        <aside class="lg:w-[30%] lg:pl-[16px] lg:mb-[24px]">
+         <div class="border-t-[1px] border-t-black pt-[20px]">
+           <div class="pb-[16px]">
+             <a href="#">
+               <figure>
+                 <img src="../Pictures/14HuntPhiladelphia.webp" alt="" class="w-[100%]">
+                 <figcaption class="mt-[4px] mb-[8px] text-right leading-[11px]">
+                   <span class="text-[9px] text-[#727272] ">Michael Persico for New York Times</span>
+                 </figcaption>
+               </figure>
+               <div class="flex flex-col">
+                 <p class="text-[24px] font-serif font-light leading-[28px]">
+                   A New Yorker Decamped to the Philadelphia Area. What Would $500,000 Buy?
+                 </p>
+                 <p class="text-[14px] font-serif leading-[19px] mt-[8px] text-[#5a5a5a]">
+                   With a new job at Bryn Mawr and a grandchild on the way, an academic looked for what she couldn’t afford in Manhattan: more space, more green, more parking.
+                 </p>
+                 <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                   3 MIN READ
+                 </p>
+               </div>
+               <hr class="my-[16px] border-y-[#dfdfdf]">
+             </a>
+           </div>
+           <div>
+             <div class="flex flex-row">
+               <div class="pr-[16px] border-r-[#dfdfdf] border-r-[1px] w-[50%]">
+                 <a href="#">
+                   <figure class="mb-[8px]">
+                     <img src="../Pictures/Travel.webp" alt="" class="w-[100%]">
+                   </figure>
+                   <div>
+                     <p class="text-[16px] font-serif font-bold leading-[19px]">
+                       Our travel columnist offers advice to a couple whose Ireland trip fell apart after a string of airline snafus.
+                     </p>
+                     <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                       6 MIN READ
+                     </p>
+                   </div>
+                 </a>
+               </div>
+               <div class="pl-[16px] w-[50%]">
+                 <a href="#">
+                   <figure class="mb-[8px]">
+                     <img src="../Pictures/Writer.webp" alt="" class="w-[100%]">
+                   </figure>
+                   <div>
+                     <p class="text-[10px] font-semibold leading-[13px] text-[#121212] mb-[4px]">
+                       BOOK REVIEW
+                     </p>
+                     <p class="text-[16px] font-serif font-bold leading-[19px]">
+                       One of his books became an Oscar-winning movie. Now, he’s back with a “masterpiece.”                    </p>
+                     <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                       6 MIN READ
+                     </p>
+                   </div>
+                 </a>
+               </div>
+             </div>
+             <div class="flex flex-row justify-end mt-[12px] p-[1px] pb-[20px]">
+               <button class="w-[26px] h-[26px] border-[#dfdfdf] border-[1px] rounded-[50%] text-center text-[#dfdfdf] mr-[5px] hover:bg-[#dfdfdf]">
+                 <
+               </button>
+               <button class="w-[26px] h-[26px] border-[#dfdfdf] border-[1px] rounded-[50%] text-center text-black ml-[5px] hover:bg-[#dfdfdf]">
+                 >
+               </button>
+             </div>
+           </div>
+         </div>
+         <div class="border-t-[1px] border-t-black pt-[20px]">
+           <div class="mt-[-11px] mb-[12px]">
+             <h2 class="text-[14px] font-bold leading-[18px]">Opinion</h2>
+           </div>
+           <div class="pb-[16px]">
+             <a href="#">
+               <div>
+                 <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
+                   J. LESTER FEDER
+                 </p>
+                 <p class="text-[17px] font-serif font-normal leading-[23px]">
+                   ‘Wear It or We Will Beat You to Death’
+                 </p>
+                 <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                   5 MIN READ
+                 </p>
+               </div>
+               <figure class="mt-[8px]">
+                 <img src="../Pictures/LesterFeder.webp" alt="">
+                 <figcaption class="mt-[4px] mb-[8px] text-right leading-[11px]">
+                   <span class="text-[9px] text-[#727272] ">Illustration by Anton Shebetko; photograph by Anadolu/Getty Images</span>
+                 </figcaption>
+               </figure>
+             </a>
+           </div>
+           <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
+             <a href="#">
+               <div class="flex flex-row items-center justify-between">
+                 <div class="w-[80%]">
+                   <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
+                     DAVID FRENCH
+                   </p>
+                   <p class="text-[17px] font-serif font-normal leading-[23px]">
+                     A Damaged Fani Willis Picks Up the Pieces of Her Case Against Trump
+                   </p>
+                   <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                     2 MIN READ
+                   </p>
+                 </div>
+                 <figure class="pl-[5px] w-[40px]">
+                   <img src="../Pictures/davidfrench.webp" alt="" class="w-[100%]">
+                 </figure>
+               </div>
+             </a>
+           </div>
+           <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
+             <a href="#">
+               <div class="flex flex-row items-center justify-between">
+                 <div class="w-[80%]">
+                   <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
+                     JAMELLE BOUIE
+                   </p>
+                   <p class="text-[17px] font-serif font-normal leading-[23px]">
+                     Don’t Think of It as a Contest Between Biden and Trump
+                   </p>
+                   <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                     5 MIN READ
+                   </p>
+                 </div>
+                 <figure class="pl-[5px] w-[40px]">
+                   <img src="../Pictures/jamellebouie.webp" alt="" class="w-[100%]">
+                 </figure>
+               </div>
+             </a>
+           </div>
+           <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
+             <a href="#">
+               <div class="flex flex-row items-center justify-between">
+                 <div class="w-[80%]">
+                   <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
+                     MICHELLE GOLDBERG
+                   </p>
+                   <p class="text-[17px] font-serif font-normal leading-[23px]">
+                     Why Is Congress Investigating a Union for Being Anti-Israel?
+                   </p>
+                   <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                     4 MIN READ
+                   </p>
+                 </div>
+                 <figure class="pl-[5px] w-[40px]">
+                   <img src="../Pictures/michellegoldberg.webp" alt="" class="w-[100%]">
+                 </figure>
+               </div>
+             </a>
+           </div>
+           <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
+             <a href="#">
+               <div class="flex flex-row items-center justify-between">
+                 <div class="w-[80%]">
+                   <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
+                     PAUL KRUGMAN
+                   </p>
+                   <p class="text-[17px] font-serif font-normal leading-[23px]">
+                     Social Security and Medicare Are on the Ballot
+                   </p>
+                   <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                     4 MIN READ
+                   </p>
+                 </div>
+                 <figure class="pl-[5px] w-[40px]">
+                   <img src="../Pictures/paulkrugman.webp" alt="" class="w-[40px]">
+                 </figure>
+               </div>
+             </a>
+           </div>
+           <div class="flex flex-row justify-between pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
+             <div class="w-[50%]">
+               <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
+                 AARON KLEIN
+               </p>
+               <p class="text-[17px] font-serif font-normal leading-[23px]">
+                 What the Fight Over the Capital One-Discover Merger Misses About Our Terrible Credit Card System
+               </p>
+               <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                 5 MIN READ
+               </p>
+             </div>
+             <figure class="w-[152px] h-[152px]">
+               <img src="../Pictures/aaronklein.webp" alt="" class="w-[100%]">
+             </figure>
+           </div>
+           <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
+             <a href="#">
+               <div>
+                   <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
+                     AARON KLEIN
+                   </p>
+                   <p class="text-[17px] font-serif font-normal leading-[23px]">
+                     New York Is Wilder Than You Think
+                   </p>
+                   <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                     5 MIN READ
+                   </p>
+               </div>
+             </a>
+           </div>
+           <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
+             <a href="#">
+               <div class="flex flex-row justify-between">
+                 <div class="w-[70%]">
+                   <div>
+                     <span class="text-[10px] font-semibold leading-[13px] mr-[8px]">MATTER OF OPINION</span>
+                     <span class="text-[10px] font-semibold leading-[13px] text-[#727272]">AUDIO</span>
+                   </div>
+                     <p class="text-[17px] font-serif font-normal leading-[23px]">
+                       The Election of Our Discontent
+                     </p>
+                     <div class="flex items-center">
+                       <div class="mt-[8px] mr-[8px]">
+                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 28 28" fill="none">
+                           <circle cx="14" cy="14" r="13.5" stroke="var(--color-stroke-quaternary,#DFDFDF)"></circle>
+                           <path d="M20.125 14L10.9375 19.3044L10.9375 8.69559L20.125 14Z" fill="var(--color-stroke-primary,#121212)"></path>
+                         </svg>
+                       </div>
+                       <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                         36 MIN LISTEN
+                       </p>
+                     </div>
+                 </div>
+                 <figure class="w-[91px] h-[91px]">
+                   <img src="../Pictures/vote.webp" alt="" class="w-[100%]">
+                 </figure>
+               </div>
+             </a>
+           </div>
+           <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
+             <div class="flex flex-row">
+               <div class="pr-[16px] border-r-[#dfdfdf] border-r-[1px] w-[50%]">
+                 <a href="#">
+                   <div>
+                     <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
+                       LETTERS FROM OUR READERS
+                     </p>
+                     <p class="text-[17px] font-serif font-normal leading-[23px]">
+                       Schumer's Strong Condemnation of Netanyahu
+                     </p>
+                   </div>
+                 </a>
+               </div>
+               <div class="pl-[16px] w-[50%]">
+                 <a href="#">
+                   <div>
+                     <p class="text-[11px] font-serif font-bold leading-[15px] text-[#727272] mb-[4px]">
+                       ALEXANDER STOCKTON
+                     </p>
+                     <p class="text-[17px] font-serif font-normal leading-[23px]">
+                       This Is Medical Injustice, Disguised as PAPERWORK
+                     </p>
+                     <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                       2 MIN READ
+                     </p>
+                   </div>
+                 </a>
+               </div>
+             </div>
+             <div class="flex flex-row justify-end mt-[12px] p-[1px] pb-[20px]">
+               <button class="w-[26px] h-[26px] border-[#dfdfdf] border-[1px] rounded-[50%] text-center text-[#dfdfdf] mr-[5px] hover:bg-[#dfdfdf]">
+                 <
+               </button>
+               <button class="w-[26px] h-[26px] border-[#dfdfdf] border-[1px] rounded-[50%] text-center text-black ml-[5px] hover:bg-[#dfdfdf]">
+                 >
+               </button>
+             </div>
+           </div>
+         </div>
+         <div class="border-t-[1px] border-t-black pt-[20px]">
+           <div class="mt-[-11px] mb-[12px]">
+             <h2 class="text-[14px] font-bold leading-[18px]">In Case You Missed It</h2>
+           </div>
+           <div class="pb-[16px]">
+               <a href="#">
+                 <div class="flex flex-row items-start justify-between">
+                   <div class="w-[70%]">
+                       <p class="text-[13px] font-serif font-bold leading-[19px]">
+                         How the Special Counsel’s Portrayal of Biden’s Memory Compares With the Transcript                        </p>
+                       <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                         8 MIN READ
+                       </p>
+                   </div>
+                   <figure class="w-[91px] h-[91px]">
+                     <img src="../Pictures/BidenAside.webp" alt="" class="w-[100%]">
+                   </figure>
+                 </div>
+               </a>
+           </div>
+           <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
+             <a href="#">
+               <div class="flex flex-row items-start justify-between">
+                 <div class="w-[70%]">
+                     <p class="text-[13px] font-serif font-bold leading-[19px]">
+                       Jonathan Kozol Fought School Inequality for Decades. Here’s One Final Plea.
+                     </p>
+                     <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                       5 MIN READ
+                     </p>
+                 </div>
+                 <figure class="w-[91px] h-[91px]">
+                   <img src="../Pictures/JonathanKozol.webp" alt="" class="w-[100%]">
+                 </figure>
+               </div>
+             </a>
+           </div>
+           <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
+             <a href="#">
+               <div class="flex flex-row items-start justify-between">
+                 <div class="w-[70%]">
+                     <p class="text-[13px] font-serif font-bold leading-[19px]">
+                       In Search of the Lost Film That Outraged Irish Americans
+                     </p>
+                     <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                       8 MIN READ
+                     </p>
+                 </div>
+                 <figure class="w-[91px] h-[91px]">
+                   <img src="../Pictures/15silentfilm.webp" alt="" class="w-[100%]">
+                 </figure>
+               </div>
+             </a>
+           </div>
+           <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
+             <a href="#">
+               <div class="flex flex-row items-start justify-between">
+                 <div class="w-[70%]">
+                     <p class="text-[13px] font-serif font-bold leading-[19px]">
+                       ‘Age Is Not a Problem’ 
+                     </p>
+                     <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                       3 MIN READ
+                     </p>
+                 </div>
+                 <figure class="w-[91px] h-[91px]">
+                   <img src="../Pictures/AgeIsnot.webp" alt="" class="w-[100%]">
+                 </figure>
+               </div>
+             </a>
+           </div>
+           <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
+             <a href="#">
+               <div class="flex flex-row items-start justify-between">
+                 <div class="w-[70%]">
+                     <p class="text-[13px] font-serif font-bold leading-[19px]">
+                       There’s an Art to Arranging a Bookshelf. Here’s How It’s Done.
+                     </p>
+                     <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
+                       3 MIN READ
+                     </p>
+                 </div>
+                 <figure class="w-[91px] h-[91px]">
+                   <img src="../Pictures/stylingshelves.webp" alt="" class="w-[100%]">
+                 </figure>
+               </div>
+             </a>
+           </div>
+         </div>
+        </aside>
+      </div>
+      <!-- Bottom of the Aside -->
+      <div class="w-100% border-t-black border-t-[2px] md:border-t-[1px]">
+        <section class="mt-[16px] md:border-b-black md:border-b-[1px]">
+          <div>
+            <h2 class="flex items-baseline">
+              <span class="text-[18px] font-serif font-bold leading-[21px]">Games</span>
+              <span class="text-[16px] font-serif font-normal leading-[19px] italic pl-[8px]">Daily Puzzles</span>
+            </h2>
           </div>
-          <div class="border-t-[1px] border-t-black pt-[20px]">
-            <div class="mt-[-11px] mb-[12px]">
-              <h2 class="text-[14px] font-bold leading-[18px]">In Case You Missed It</h2>
+          <article class="flex flex-col mb-[16px] md:grid md:grid-cols-2 md:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2">
+            <a href="#" class="flex justify-between py-[16px] md:pr-[16px] md:border-r-[1px] md:border-r-[#dfdfdf]">
+              <div class="felx flex-col w-[67%]">
+                <span class="text-[20px] font-serif font-bold leading-[23px]">Wordle</span>
+                <p>Guess the 5-letter word with 6 chances.</p>
+              </div>
+              <div class="w-[33%] pl-[33px]">
+                <figure>
+                  <img src="../Pictures/wordle.webp" alt="" class="w-[100%]">
+                </figure>
+              </div>
+            </a>
+            <a href="#" class="flex justify-between py-[16px] border-t-[1px] border-t-[#dfdfdf] md:border-t-0 md:pl-[16px] lg:pr-[16px] lg:border-r-[1px] lg:border-r-[#dfdfdf]">
+              <div class="felx flex-col w-[67%]">
+                <span class="text-[20px] font-serif font-bold leading-[23px]">Strands | BETA</span>
+                <p>Uncover hidden words and reveal the theme.</p>
+              </div>
+              <div class="w-[33%] pl-[33px]">
+                <figure>
+                  <img src="../Pictures/strands.webp" alt="" class="w-[100%]">
+                </figure>
+              </div>
+            </a>
+            <a href="#" class="flex justify-between py-[16px] border-t-[1px] border-t-[#dfdfdf] md:pr-[16px] md:border-r-[1px] md:border-r-[#dfdfdf] lg:border-t-0 lg:border-r-0 lg:pl-[16px] lg:pr-0">
+              <div class="felx flex-col w-[67%]">
+                <span class="text-[20px] font-serif font-bold leading-[23px]">Connections</span>
+                <p>Group words that share a common thread.</p>
+              </div>
+              <div class="w-[33%] pl-[33px]">
+                <figure>
+                  <img src="../Pictures/connections.webp" alt="" class="w-[100%]">
+                </figure>
+              </div>
+            </a>
+            <a href="#" class="flex justify-between py-[16px] border-t-[1px] border-t-[#dfdfdf] md:pl-[16px] lg:pr-[16px] lg:border-r-[1px] lg:border-r-[#dfdfdf]">
+              <div class="felx flex-col w-[67%]">
+                <span class="text-[20px] font-serif font-bold leading-[23px]">Connections Companion</span>
+                <p>In case you need some puzzle help.</p>
+              </div>
+              <div class="w-[33%] pl-[33px]">
+                <figure>
+                  <img src="../Pictures/connectionscompanion.webp" alt="" class="w-[100%]">
+                </figure>
+              </div>
+            </a>
+            <a href="#" class="flex justify-between py-[16px] border-t-[1px] border-t-[#dfdfdf] md:pr-[16px] md:border-r-[1px] md:border-r-[#dfdfdf] lg:pl-[16px]">
+              <div class="felx flex-col w-[67%]">
+                <span class="text-[20px] font-serif font-bold leading-[23px]">Spelling Bee</span>
+                <p>How many words can you make with 7 letters?</p>
+              </div>
+              <div class="w-[33%] pl-[33px]">
+                <figure>
+                  <img src="../Pictures/spellingbee.webp" alt="" class="w-[100%]">
+                </figure>
+              </div>
+            </a>
+            <a href="#" class="flex justify-between py-[16px] border-t-[1px] border-t-[#dfdfdf] md:pl-[16px]">
+              <div class="felx flex-col w-[67%]">
+                <span class="text-[20px] font-serif font-bold leading-[23px]">The Crossword</span>
+                <p>Get clued with wordplay, every day.</p>
+              </div>
+              <div class="w-[33%] pl-[33px]">
+                <figure>
+                  <img src="../Pictures/crossword.webp" alt="" class="w-[100%]">
+                </figure>
+              </div>
+            </a>
+          </article>
+        </section>
+        <section class="hidden md:block md:pt-[35px] md:mt-[1px] md:border-t-black md:border-t-[1px]">
+          <div>
+            <div class="pl-[15px]">
+              <h2 class="text-[13px] font-bold leading-[22px] mb-[12px]">NEWS</h2>
             </div>
-            <div class="pb-[16px]">
-                <a href="#">
-                  <div class="flex flex-row items-start">
-                    <div class="w-[70%]">
-                        <p class="text-[13px] font-serif font-bold leading-[19px]">
-                          How the Special Counsel’s Portrayal of Biden’s Memory Compares With the Transcript                        </p>
-                        <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                          8 MIN READ
-                        </p>
-                    </div>
-                    <figure class="w-[91px] h-[91px]">
-                      <img src="../Pictures/BidenAside.webp" alt="" class="w-[100%]">
-                    </figure>
-                  </div>
+            <div class="flex flex-row flex-wrap w-[100%]">
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">World News</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/WorldNewsbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Middle East Crisis: Blinken Meets With Egypt’s President as U.S. Pushes for Cease-Fire at U.N.
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Russia Targets Kyiv With Biggest Missile Attack in Weeks
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Far Right’s Success Is a Measure of a Changing Portugal
+                  </p>
                 </a>
-            </div>
-            <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
-              <a href="#">
-                <div class="flex flex-row items-start">
-                  <div class="w-[70%]">
-                      <p class="text-[13px] font-serif font-bold leading-[19px]">
-                        Jonathan Kozol Fought School Inequality for Decades. Here’s One Final Plea.
-                      </p>
-                      <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                        5 MIN READ
-                      </p>
-                  </div>
-                  <figure class="w-[91px] h-[91px]">
-                    <img src="../Pictures/JonathanKozol.webp" alt="" class="w-[100%]">
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">U.S. News</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/USNewsbottom.webp" alt="" class="w-[100%]">
                   </figure>
-                </div>
-              </a>
-            </div>
-            <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
-              <a href="#">
-                <div class="flex flex-row items-start">
-                  <div class="w-[70%]">
-                      <p class="text-[13px] font-serif font-bold leading-[19px]">
-                        In Search of the Lost Film That Outraged Irish Americans
-                      </p>
-                      <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                        8 MIN READ
-                      </p>
-                  </div>
-                  <figure class="w-[91px] h-[91px]">
-                    <img src="../Pictures/15silentfilm.webp" alt="" class="w-[100%]">
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    The Lone Volcano in California’s Central Valley
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    High Winds Fuel Wildfires in Virginia and Other Mid-Atlantic States
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Biden Suggests a Bigger Federal Role to Reduce Housing Costs
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">U.S. Politics</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/USPoliticsbottom.webp" alt="" class="w-[100%]">
                   </figure>
-                </div>
-              </a>
-            </div>
-            <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
-              <a href="#">
-                <div class="flex flex-row items-start">
-                  <div class="w-[70%]">
-                      <p class="text-[13px] font-serif font-bold leading-[19px]">
-                        ‘Age Is Not a Problem’ 
-                      </p>
-                      <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                        3 MIN READ
-                      </p>
-                  </div>
-                  <figure class="w-[91px] h-[91px]">
-                    <img src="../Pictures/AgeIsnot.webp" alt="" class="w-[100%]">
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Biden Suggests a Bigger Federal Role to Reduce Housing Costs
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Republicans Are Counting on Millionaires to Flip the Senate
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    America First Legal, a Trump-Aligned Group, Is Spoiling for a Fight
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">New York</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/NewYorkbottom.webp" alt="" class="w-[100%]">
                   </figure>
-                </div>
-              </a>
-            </div>
-            <div class="pt-[16px] border-t-[1px] border-t-[#dfdfdf] mb-[16px]">
-              <a href="#">
-                <div class="flex flex-row items-start">
-                  <div class="w-[70%]">
-                      <p class="text-[13px] font-serif font-bold leading-[19px]">
-                        There’s an Art to Arranging a Bookshelf. Here’s How It’s Done.
-                      </p>
-                      <p class="text-[10px] leadin-[13px] font-normal mt-[4px] text-[#727272]">
-                        3 MIN READ
-                      </p>
-                  </div>
-                  <figure class="w-[91px] h-[91px]">
-                    <img src="../Pictures/stylingshelves.webp" alt="" class="w-[100%]">
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    As Congestion Pricing Nears Reality, It Faces Growing Opposition
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    What Is Antisemitism? A Columbia Task Force Would Rather Not Say.
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    The Hotel That Owed Over $300,000 in Water Bills
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Business</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/Businessbottom.webp" alt="" class="w-[100%]">
                   </figure>
-                </div>
-              </a>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Why the Panama Canal Didn’t Lose Money When Ship Crossings Fell
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Reddit’s I.P.O. Is a Content Moderation Success Story
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Condé Nast’s Owners Set to Reap a $1.4 Billion Windfall From Reddit
+                  </p>
+                </a>
+              </div>
             </div>
           </div>
-      </aside>
+
+          <div>
+            <div class="pl-[15px]">
+              <h2 class="text-[13px] font-bold leading-[22px] mb-[12px]">OPINION</h2>
+            </div>
+            <div class="flex flex-row flex-wrap w-[100%]">
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Opinion</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/Opinionbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    It Hurts to See Biden Imitating Trump on Trade
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Adding Insult to Injury
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    The One Idea That Could Save American Democracy
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Opinion Columnists</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/OpinionColumnistsbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Adding Insult to Injury
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    The Potency of Trump’s ‘Lost Cause’ Mythmaking
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Oprah, Ozempic and Us
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Editotials</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/Editorialsbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Is Voting Still Worth It? Just Ask Ms. Gadson-Birch.
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Trump’s Conquest of the Republican Party Matters to Every American
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Finally, Some Good News at the W.T.O.
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Guest Essays</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/GuestEssaysbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    The One Idea That Could Save American Democracy
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    It Hurts to See Biden Imitating Trump on Trade
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Mass Tech Layoffs? Just Another Day in the Corporate Blender.
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Sunday Opinion</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/SundayOpinionbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Will Mexico’s Claudia Sheinbaum, a Jewish Woman, Blaze a Trail or Follow One?
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    President Biden, You Have Leverage That Can Save Lives in Gaza. Please Use It.
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Covid Precautions Are Still With Us. Just Look Down.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="pl-[15px]">
+              <h2 class="text-[13px] font-bold leading-[22px] mb-[12px]">ARTS</h2>
+            </div>
+            <div class="flex flex-row flex-wrap w-[100%]">
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Arts</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/Artsbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    States Have Spent $25 Billion to Woo Hollywood. Is It Worth It?
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    ‘Immaculate’ Review: Sydney Sweeney Is Wide-Eyed but Sly
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    ‘Late Night With the Devil’ Review: Selling Your Soul for the Ratings
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Arts and Designs</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/ArtandDesignbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Joan Jonas: A Trailblazer Shines at MoMA
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    One Collector’s High Mountain Road to Hokusai
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Empty Frames and Other Oddities From the Unsolved Gardner Museum Heist
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Movies</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/Moviesbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    ‘Immaculate’ Review: Sydney Sweeney Is Wide-Eyed but Sly
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    ‘Late Night With the Devil’ Review: Selling Your Soul for the Ratings
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    ‘Ghostbusters: Frozen Empire’ Review: Something Weird, Multiplied
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Television</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/Televisionbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Review: ‘3 Body Problem’ Is a Galaxy-Brained Spectacle
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    ‘Quiet on Set: The Dark Side of Kids TV’: 5 Takeaways
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    ‘3 Body Problem’ Episode 1 Recap: The Final Countdown
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Music</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/Musicbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Vampire Weekend Did Not Make a ‘Doom and Gloom Record’
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    How Did Wagner Want His ‘Ring’ Cycle to Sound?
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Sarah Shook & the Disarmers Took the Hard Path. The Music Kept Coming.
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="pl-[15px]">
+              <h2 class="text-[13px] font-bold leading-[22px] mb-[12px]">LIVING</h2>
+            </div>
+            <div class="flex flex-row flex-wrap w-[100%]">
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Style</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/Stylebottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    The Trumpification of Kristi Noem
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Zendaya Says Goodbye to Sandworms, Hello to Skorts
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Are You Talking, or Are You ‘Yapping’?
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Food</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/Foodbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Why Doubles Remain Trinidad’s Most Popular Food
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    The Egg Dish You Need to Make Right Now
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    The Timeless Appeal of Champagne and Fried Chicken
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">Well</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/Wellbottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Accountability Is the Key to a Sustainable Workout Habit
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    How to Have a Healthier Relationship With Your Phone
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    How to Recognize the Most Common Form of Skin Cancer
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">The New York Times</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/TheNewYorkTimesMagazinebottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    An Arsenal of Mysteries: The Terrifying Allure of a Remote Caribbean Island
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    The Mad Perfumer of Parma
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    A Supremely Comforting One-Pot Rice Dish
+                  </p>
+                </a>
+              </div>
+              <div class="w-[33%] mb-[30px] px-[15px] lg:w-[20%]">
+                <a href="#" class="flex flex-col w-[100%]">
+                  <h3 class="text-[13px] font-bold leading-[22px] mb-[1px]">T Magazine</h3>
+                  <figure class="w-[100%] mb-[11px]">
+                    <img src="../Pictures/TMagazinebottom.webp" alt="" class="w-[100%]">
+                  </figure>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Why ‘Uncle Vanya’ Is the Play for Our Anxious Era
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    Britain’s ‘Pie King’ Comes to Paris
+                  </p>
+                  <p class="text-[14px] font-extralight leading-[18px] font-serif mb-[10px]">
+                    A Designer Inspired by Club DJs, Fishing Apparel and Ceremonial Masks
+                  </p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>        
+      </div>
     </main>
+    <!-- Footer -->
+    <footer class=" mx-[20px] mt-[1px] border-t-[#dfdfdf] border-t-[1px] lg:mx-auto lg:max-w-[1200px] lg:px-[3%] lg:py-0">
+      <div>
+        
+      </div>
+      <div class="flex flex-col lg:flex-row">
+      </div>
+    </footer>
 </body> 
 </html>
